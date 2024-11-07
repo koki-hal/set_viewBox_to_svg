@@ -9,6 +9,9 @@ This script enumerates all '*.svg' files in the current folder, and processes al
 
 The svg files will be overwritten.
 
-ex.
-  befor modify : <svg width="1234" height="789" ... >  
-  after modify : <svg viewBox="0 0 1234 789" ... >
+example :  
+befor modify  
+> <svg width="1234" height="789" ... >
+
+after modify  
+> <svg viewBox="0 0 1234 789" ... >
