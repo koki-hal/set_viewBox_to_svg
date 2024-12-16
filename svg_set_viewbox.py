@@ -185,6 +185,8 @@ def main(svg_src, svg_dst):
     with open(svg_dst, 'w', encoding='UTF-8') as file:
         file.write(svg_out)
 
+    print(svg_dst)
+
     pass
 
 
@@ -192,6 +194,6 @@ if __name__ == '__main__':
     # processing all *.svg files in the current directory
     for svg in os.listdir('.'):
         if svg.endswith('.svg'):
-            print(svg)
+            # print(svg)
             main(svg, svg)  # overwrite
 
