@@ -163,6 +163,10 @@ def main(svg_src, svg_dst):
     del svg_dict['width']
     del svg_dict['height']
 
+    # remove overflow from dict
+    if 'overflow' in svg_dict:
+        del svg_dict['overflow']
+
     # generate viewBox
     viewbox = f'viewBox="0 0 {width} {height}"'
 
