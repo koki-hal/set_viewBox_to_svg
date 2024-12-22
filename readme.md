@@ -16,3 +16,9 @@ befor modify
 
 after modify  
 > <svg viewBox="0 0 1234 789" ... >
+
+## Environment
+
+- Windows 11 Pro
+- Python 3.13.0
+
